@@ -1,0 +1,9 @@
+services:
+  context7:
+    image: mcp/context7:latest
+    container_name: context7
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+    ports:
+      - "9090:8080"
